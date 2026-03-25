@@ -7,7 +7,7 @@ publish = false
 
 [dependencies]
 anyhow = "1.0.95"
-dashcore = { git = "https://github.com/dashpay/rust-dashcore", features = ["std", "secp-recovery", "rand", "signer", "serde", "apple"], default-features = false, branch = "feat/ferment" }
+dashcore = { git = "https://github.com/dashpay/rust-dashcore", features = ["std", "secp-recovery", "rand", "signer", "serde", "apple"], default-features = false, rev = "8cbae416458565faac21d3452fbc6d80b324f6d3" }
 
 ferment.workspace = true
 ferment-macro.workspace = true
