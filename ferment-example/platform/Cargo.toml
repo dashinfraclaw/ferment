@@ -12,7 +12,7 @@ publish = false
 
 [dependencies]
 anyhow = { version = "1.0.75" }
-dashcore = { git = "https://github.com/dashpay/rust-dashcore", features = ["std", "secp-recovery", "rand", "signer", "serde", "apple"], default-features = false, branch = "feat/ferment" }
+dashcore = { git = "https://github.com/dashpay/rust-dashcore", features = ["std", "secp-recovery", "rand", "signer", "serde", "apple"], default-features = false, rev = "5114330ae564858803d656efba84bb4adacb2a2e" }
 ferment.workspace = true
 ferment-macro.workspace = true
 grovedb-version = "2.1.0"
